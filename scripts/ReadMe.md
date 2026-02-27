@@ -75,7 +75,7 @@ npm run viem:deposit
 
 ### Part 3 — Event Reading (Viem)
 
-Fetches all `Deposited`, `Withdrawn`, and `RewardsAdded` events from the StakingVault and displays each with block number, user address, and amount.
+Fetches all `Deposited`, `Withdrawn`, events from the StakingVault and displays each with block number, user address, and amount.
 
 ```bash
 npm run viem:events
@@ -95,8 +95,8 @@ scripts/
 │   └── viem/
 │       ├── readVaults.ts       # Read vault state using Viem
 │       ├── deposit.ts          # Approve + deposit using Viem
-│       ├── events.ts           # Fetch and display contract events
-│       └── addRewards.ts       # Add rewards to the vault
+│       └── events.ts           # Fetch and display contract events
+│      
 ├── config/
 │   ├── abi.ts                  # StakingVault and StakeToken ABIs
 │   ├── addresses.ts            # Contract addresses and RPC URL
